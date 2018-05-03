@@ -1,0 +1,10 @@
+<apex:page sidebar="false" >
+    <apex:pageBlock title="A Block Title">
+        <apex:pageBlockSection title="A Section Title">
+            I'm three components deep!
+            <p> Today's Date is {! TODAY()} </p>
+            <p> Next week it will be {! TODAY() + 7} </p>
+            {! $User.firstname & ' ' & $User.lastname}
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

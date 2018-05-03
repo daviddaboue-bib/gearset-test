@@ -1,0 +1,4 @@
+<apex:page showHeader="false" sidebar="false" standardController="Account">
+	<apex:canvasApp developerName="FileUploader" parameters="{parentId:'{!Account.Id}',sessionId:'{!$Api.Session_ID}', serverURL:'{!$Api.Enterprise_Server_URL_300}'}" />
+	<c:MultiFileUploader parentId="{!Account.Id}" /> 
+</apex:page>

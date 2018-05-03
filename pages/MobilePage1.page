@@ -1,0 +1,5 @@
+<apex:page docType="html-5.0" standardController="Contact">
+  <apex:form >
+      <apex:inputField label="DateTime" type="datetime" value="{!Contact.createdDate}" />
+  </apex:form>
+</apex:page>

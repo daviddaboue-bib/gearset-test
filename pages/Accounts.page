@@ -1,0 +1,310 @@
+<apex:page sidebar="false" showHeader="false" standardStylesheets="false" cache="true" docType="html-5.0" language="fr">
+	<html>
+<head>
+<title>BOOTSTRAP SERIES</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!--CSS FILES-->
+<apex:stylesheet value="{!URLFOR($Resource.bootstrap, '/css/bootstrap.min.css')}" />
+<apex:stylesheet value="{!URLFOR($Resource.bootstrap, '/css/bootstrap-theme.min.css')}" />
+
+<!--JS FILES-->
+<apex:includeScript value="{!URLFOR($Resource.bootstrap, '/js/jquery.min.js')}" />
+<apex:includeScript value="{!URLFOR($Resource.bootstrap, '/js/bootstrap.min.js')}" />
+</head>
+
+<body>
+	
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container" id="main-nav">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu_collapsible">
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Menu</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="menu_collapsible">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Link 1</a></li>
+					<li class="active"><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Link 4 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Another action</a></li>
+							<li><a href="#">Something else here</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Separated link</a></li>
+							<li class="divider"></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul></li>
+				</ul>
+
+				<form class="navbar-form  navbar-right" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search" />
+					</div>
+					<button type="submit" class="btn btn-default">
+						<span class="glyphicon glyphicon-search"></span>
+					</button>
+				</form>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<table class="table table-bordered table-hover">
+					<thead>
+						<tr>
+							<th>Header 1</th>
+							<th>Header 2</th>
+							<th>Header 3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<table class="table table-bordered table-hover">
+					<thead>
+						<tr>
+							<th>Header 1</th>
+							<th>Header 2</th>
+							<th>Header 3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<table class="table table-bordered table-hover">
+					<thead>
+						<tr>
+							<th>Header 1</th>
+							<th>Header 2</th>
+							<th>Header 3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<table class="table table-bordered table-hover">
+					<thead>
+						<tr>
+							<th>Header 1</th>
+							<th>Header 2</th>
+							<th>Header 3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+						<tr class="">
+							<td>Item 11</td>
+							<td>Item 12</td>
+							<td>Item 13</td>
+						</tr>
+						<tr>
+							<td>Item 21</td>
+							<td>Item 22</td>
+							<td>Item 23</td>
+						</tr>
+						<tr>
+							<td>Item 31</td>
+							<td class="">Item 32</td>
+							<td>Item33</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('#main-nav').affix({
+	      offset: {
+	        top: $('nav').height()
+	      }
+	});    
+	</script>
+</body>
+	</html>
+</apex:page>

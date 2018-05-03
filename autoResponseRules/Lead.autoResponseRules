@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata"><autoResponseRule>
+        <fullName>Default</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Type__c</field>
+                <operation>equals</operation>
+                <value>Product</value>
+            </criteriaItems>
+            <senderEmail>david.daboue@yahoo.ca</senderEmail>
+            <senderName>NewLead</senderName>
+            <template>Lead_Response_Templates/Product_Inquiry_Response</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Lead.Type__c</field>
+                <operation>equals</operation>
+                <value>Service</value>
+            </criteriaItems>
+            <senderEmail>david.daboue@yahoo.ca</senderEmail>
+            <senderName>NewLead</senderName>
+            <template>Lead_Response_Templates/Service_Inquiry_Response</template>
+        </ruleEntry>
+    </autoResponseRule></AutoResponseRules>

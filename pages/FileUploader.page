@@ -1,0 +1,35 @@
+<apex:page showHeader="true" sidebar="false">
+	<link rel="stylesheet" href="{!URLFOR($Resource.uploadifive, 'uploadifive.css')}" />
+	<script src="/soap/ajax/33.0/connection.js" type="text/javascript"></script>
+	<script src="{!URLFOR($Resource.uploadifive, 'jquery.js')}"></script>
+	<script src="{!URLFOR($Resource.uploadifive_js)}"></script>
+
+	<div id="queue"></div>
+	
+	<style type="text/css">
+		#queue{
+			width: 300px;
+			height: 200px; 
+			padding: 5px;
+			background-color: #ddd;
+		}
+	</style>
+
+	<script type="text/javascript">
+		var sessionId = '{!GETSESSIONID()}';
+		
+		$(function() {
+			$('#file_upload').uploadifive({
+				queueID:"queue",
+				method:'POST',
+				dnd:true,
+				formData:{
+					parentId:'001d000001l8tqK',
+					sessionId: "{!$Api.Session_ID}",
+					serverURL: "{!$Api.Enterprise_Server_URL_300}"
+				},
+				uploadScript : 'https://dabs-php.herokuapp.com/upload'
+			});
+		});
+	</script>
+</apex:page>

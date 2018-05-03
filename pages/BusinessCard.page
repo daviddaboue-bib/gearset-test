@@ -1,0 +1,11 @@
+<apex:page docType="html-5.0">
+  <p>Title:{!$User.Title}</p>
+  <p>First Name:{!$User.FirstName}</p>
+  <p>Last Name:{!$User.LastName}</p>
+  <p>Email:{!$User.Email}</p>
+  <p>Phone:{!$User.Phone}</p>
+  <apex:form >
+      <apex:inputText />   
+      <apex:commandButton value="Send"/>
+  </apex:form>
+</apex:page>

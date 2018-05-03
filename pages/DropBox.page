@@ -1,0 +1,25 @@
+<apex:page >
+    <script type="text/javascript" src="https://www.dropbox.com/static/api/1/dropins.js" id="dropboxjs" data-app-key="yqq06bdek7jfcfj"></script>
+    <input type="button" id="choose" onclick="javascript:select_file_from_dropbox();" value="Select from DropBox"/>
+    
+    <script type="text/javascript">
+        function select_file_from_dropbox(){
+            options = {
+                success: function(files) {
+                    alert("Here's the file link:" + files[0].link)
+                },
+                cancel: function() {
+        
+                },
+                linkType: "preview", //or "direct",
+                multiselect: true,
+                //extensions: ['.pdf', '.doc', '.docx'],
+                    
+            };
+            
+            Dropbox.choose(options);        
+        }
+
+    </script>
+    
+</apex:page>

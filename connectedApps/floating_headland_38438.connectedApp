@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>david.daboue@yahoo.ca</contactEmail>
+    <label>floating-headland-38438</label>
+    <oauthConfig>
+        <callbackUrl>https://floating-headland-38438.herokuapp.com/_auth</callbackUrl>
+        <consumerKey>3MVG9rFJvQRVOvk5TytN.l3vs0t7wzBN7hmSCRmRjiP5erwPSAvT5M685jio_.DEEImpnwfSviT4MYMLbPT.D</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>
