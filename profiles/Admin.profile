@@ -322,7 +322,7 @@
     </pageAccesses><pageAccesses>
         <apexPage>hello</apexPage>
         <enabled>true</enabled>
-    </pageAccesses><fieldPermissions xmlns="http://soap.sforce.com/2006/04/metadata">
+    </pageAccesses><fieldPermissions>
         <editable>true</editable>
         <field>Case.demo__c</field>
         <readable>true</readable>
