@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><userLicense>Guest</userLicense><classAccesses>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>true</custom><userLicense>Guest</userLicense><classAccesses>
         <apexClass>UploadController</apexClass>
         <enabled>true</enabled>
     </classAccesses><pageAccesses>
@@ -1150,22 +1150,4 @@
     </tabVisibilities><tabVisibilities>
         <tab>standard-WorkBadgeDefinition</tab>
         <visibility>DefaultOn</visibility>
-    </tabVisibilities><userPermissions>
-        <enabled>true</enabled>
-        <name>EnableNotifications</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SelectFilesFromSalesforce</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>UseWebLink</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ViewAllUsers</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ViewGlobalHeader</name>
-    </userPermissions></Profile>
+    </tabVisibilities></Profile>

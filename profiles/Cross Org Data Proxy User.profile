@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>XOrg Proxy User</userLicense><classAccesses>
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata"><custom>false</custom><userLicense>XOrg Proxy User</userLicense><classAccesses>
         <apexClass>ContactsTodayController</apexClass>
         <enabled>true</enabled>
     </classAccesses><classAccesses>
@@ -1608,28 +1608,4 @@
     </tabVisibilities><tabVisibilities>
         <tab>standard-WorkBadgeDefinition</tab>
         <visibility>DefaultOn</visibility>
-    </tabVisibilities><userPermissions>
-        <enabled>true</enabled>
-        <name>AddDirectMessageMembers</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterEditOwnPost</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ContentWorkspaces</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>RemoveDirectMessageMembers</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>SelectFilesFromSalesforce</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
-    </userPermissions><userPermissions>
-        <enabled>true</enabled>
-        <name>UseWebLink</name>
-    </userPermissions></Profile>
+    </tabVisibilities></Profile>
